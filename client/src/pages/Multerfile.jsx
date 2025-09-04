@@ -10,7 +10,7 @@ const Multer=()=>{
    const handleSubmit=async()=>{
     const formData=new FormData();
     formData.append("file",file)
-     let api=""
+     let api="http://localhost:8000/upload"
      try {
         const response=await axios.post(api,formData)
         console.log(response)
