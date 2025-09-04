@@ -11,8 +11,8 @@ const Topnav=()=>{
             
           <Navbar.Brand href="#home" id='title'>Crud Opration</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="multer">Multer</Nav.Link>
             <Nav.Link as={Link} to="single">Singlefile</Nav.Link>
+            <Nav.Link as={Link} to="multer">Multer</Nav.Link>
             <Nav.Link as={Link} to="multiple">MultipleFile</Nav.Link>
           </Nav>
          
