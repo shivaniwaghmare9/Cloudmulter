@@ -72,7 +72,6 @@
 // });
 
 // const Port=process.env.PORT ||4000
-
 // app.listen(Port,()=>{
 //    console.log(`server running on port ${Port}`);
 // })
@@ -150,7 +149,6 @@ app.post("/upload-multiple", upload.array("files", 10), (req, res) => {
 });
 
 const Port=process.env.PORT ||4000
-
 app.listen(Port,()=>{
    console.log(`server running on port ${Port}`);
 })
