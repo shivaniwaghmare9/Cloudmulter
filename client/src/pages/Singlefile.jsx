@@ -26,4 +26,3 @@ const Single=()=>{
     )
 }
 export default Single;
-<div className="git commit "></div>
